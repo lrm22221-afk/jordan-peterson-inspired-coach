@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*.env
+profile.json
+life_plan.md
+.keel/
