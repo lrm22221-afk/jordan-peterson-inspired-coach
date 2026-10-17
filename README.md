@@ -35,6 +35,8 @@
   - being taken advantage of
   - an upcoming hard conversation
 - **Safety first.** Crisis and abuse signals (English and Hebrew) override everything. In that case there is no firmness and no role-play, and crisis resources are always printed (`config/safety.json`).
+- **Speech style.** Rhythm, pauses, rhetorical questions, tenderness, and firm-but-loving delivery are grounded in transcript evidence (`persona/speech_style.md`).
+- **Optional TTS (`--tts`).** Prints SSML with pause markers and prosody built from `config/voice_profile.json`. The profile describes a deep, mid-low North American (Canadian-neutral) male voice with a measured pace and earnest delivery, and lists settings for OpenAI, ElevenLabs, Azure and Google *stock* voices. **No voice cloning:** this project does not clone, and must not be used to clone, Jordan B. Peterson's voice or any real person's voice.
 - **Languages:** English and Hebrew.
 
 ## Run

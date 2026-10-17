@@ -1,0 +1,26 @@
+{
+ "_doc": "Voice profile for optional TTS. It EVOKES a delivery style (measured, earnest, deliberate pauses) using STOCK voices only. Voice cloning of Jordan B. Peterson or of any real person is explicitly NOT supported and must not be added.",
+ "no_cloning": true,
+ "character": {
+  "voice": "deep / mid-low adult male",
+  "accent": "North American, Canadian-neutral",
+  "pace": "measured and slow by default; speeds up slightly when an argument builds, slows right down for the hard truth",
+  "emotion": "earnest; slight strain and slower delivery on emotional points; warm and plain in safety mode",
+  "pauses": "deliberate, from '...' and '—' in the text"
+ },
+ "ssml": {
+  "base": {"rate": "92%", "pitch": "-8%"},
+  "build": {"rate": "104%", "pitch": "-6%"},
+  "emphasis": {"rate": "85%", "pitch": "-10%", "volume": "+1dB"},
+  "safety": {"rate": "90%", "pitch": "-4%"},
+  "breaks": {"ellipsis": "700ms", "dash": "400ms", "paragraph": "900ms", "safety_ellipsis": "500ms", "safety_dash": "300ms", "safety_paragraph": "700ms"}
+ },
+ "providers": {
+  "openai": {"model": "gpt-4o-mini-tts", "voice": "onyx", "speed": 0.92,
+             "instructions": "Deep, mid-low adult male voice with a neutral North American (Canadian) accent. Measured, deliberate pace with real pauses; speed up slightly as an argument builds, then slow down for the key line. Earnest and caring; let a little strain come into the voice on emotional points. Never theatrical. Do not imitate any specific real person."},
+  "elevenlabs": {"voice": "choose a stock/premade deep North American male voice from the Voice Library (e.g. a 'deep, mature, narration' tag); do NOT use voice cloning",
+                 "model_id": "eleven_multilingual_v2", "voice_settings": {"stability": 0.45, "similarity_boost": 0.7, "style": 0.35, "use_speaker_boost": true, "speed": 0.92}},
+  "azure": {"en": "en-CA-LiamNeural", "he": "he-IL-AvriNeural", "note": "use SSML prosody from 'ssml' above"},
+  "google": {"en": "a stock en-US/en-CA male Neural2/Studio voice", "speakingRate": 0.92, "pitch": -2.0}
+ }
+}

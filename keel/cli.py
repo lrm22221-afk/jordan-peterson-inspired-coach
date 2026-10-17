@@ -8,6 +8,7 @@ from .engine import Coach
 from .llm import OfflineLLM, OpenAICompatLLM, LLMError
 from .profile import ProfileStore, checkin_due
 from .progress import open_commitments, resolve, add_commitment
+from .tts import to_ssml
 
 DISCLAIMER = ("Keel is an unofficial AI coaching tool inspired by Jordan B. Peterson's published ideas. "
               "It is not affiliated with or endorsed by him, and it is not therapy or medical advice.")
@@ -45,6 +46,7 @@ def main(argv=None, ask=input, say=print, llm=None):
     ap = argparse.ArgumentParser(prog="keel", description=DISCLAIMER)
     ap.add_argument("--lang", choices=["en", "he"])
     ap.add_argument("--offline", action="store_true", help="no API calls (demo/testing)")
+    ap.add_argument("--tts", action="store_true", help="also print SSML with pause markers for text-to-speech")
     ap.add_argument("--profile", help="path to profile JSON (default ~/.keel/profile.json)")
     args = ap.parse_args(argv)
 
@@ -101,6 +103,8 @@ def main(argv=None, ask=input, say=print, llm=None):
         if res["stance"] == "SAFETY":
             say("\n" + safety)  # always shown, independent of the model
         say(f"\nkeel> {reply}")
+        if args.tts:
+            say(to_ssml(reply, safety=res["stance"] == "SAFETY"))
         store.save(profile)
     store.save(profile)
     return 0

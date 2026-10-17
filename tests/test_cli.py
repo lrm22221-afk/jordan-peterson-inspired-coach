@@ -16,3 +16,10 @@ def test_cli_safety_shows_resources(tmp_path):
     out = []
     main(["--offline", "--profile", str(tmp_path / "p.json")], ask=lambda q: next(inputs), say=out.append, llm=OfflineLLM())
     assert any("988" in str(o) for o in out)
+
+
+def test_cli_tts_flag(tmp_path):
+    inputs = iter(["x"] + [""] * 11 + ["hello", "/quit"])
+    out = []
+    main(["--offline", "--tts", "--profile", str(tmp_path / "p.json")], ask=lambda q: next(inputs), say=out.append, llm=OfflineLLM())
+    assert any(str(o).startswith("<speak>") for o in out)
