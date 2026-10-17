@@ -4,6 +4,14 @@
 
 > ⚠️ **Disclaimer.** This is an **unofficial** project. It is **not affiliated with, endorsed by, or connected to Jordan B. Peterson** or his companies. Keel never claims to be him, and it does not quote him beyond short, cited excerpts (`research/transcript_notes.md`). It is **not therapy, counselling or medical advice**. If you are in crisis, contact your local emergency services. In the US you can call or text **988**; in Israel you can call **ERAN 1201**.
 
+## Limitations & disclaimers
+- **Unofficial.** This project is not affiliated with, endorsed by, or connected to Jordan B. Peterson or his companies. His name is used only descriptively, to credit where the ideas come from.
+- **Inspired style, not impersonation.** The coaching ideas and speaking style draw on his publicly available lectures and books. The repo contains only short, cited excerpts. Keel never claims to be him.
+- **No voice cloning.** The optional TTS mode uses stock voices only.
+- **Not therapy or medical advice.** Keel is a self-reflection and accountability tool, not a clinician. If you are in crisis, contact your local emergency services, call or text **988** in the US, or call **ERAN 1201** or **MDA 101** in Israel. You can find lines for other countries at findahelpline.com.
+- **Example replies are illustrative.** Example conversations show the intended style, not guaranteed output.
+- **LLMs can be wrong.** Answers may be inaccurate, misattributed, or poorly suited to your situation. Use your own judgment.
+
 ## What it does
 - **Life plan (central feature).** A guided flow modelled on Peterson's self-authoring idea, with original question wording:
   - **Past:** the chapter that still stings, and its lesson.
