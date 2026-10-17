@@ -47,15 +47,18 @@
 - **Optional TTS (`--tts`).** Prints SSML with pause markers and prosody built from `config/voice_profile.json`. The profile describes a deep, mid-low North American (Canadian-neutral) male voice with a measured pace and earnest delivery, and lists settings for OpenAI, ElevenLabs, Azure and Google *stock* voices. **No voice cloning:** this project does not clone, and must not be used to clone, Jordan B. Peterson's voice or any real person's voice.
 - **Languages:** English and Hebrew.
 
-## Run
+## Quick start
+Works with any OpenAI-compatible chat API (OpenAI, OpenRouter, Together, a local Ollama/vLLM server, and others). Requires Python 3.9+. There are no runtime dependencies.
 ```bash
-python3 -m venv .venv && source .venv/bin/activate   # Python 3.9+, no runtime deps
-export KEEL_API_KEY=...            # any OpenAI-compatible endpoint
-export KEEL_BASE_URL=https://api.openai.com/v1   # optional
-export KEEL_MODEL=gpt-4o-mini                    # optional
-python -m keel                     # English
-python -m keel --lang he           # Hebrew
-python -m keel --offline           # demo without API calls
+git clone https://github.com/lrm22221-afk/jordan-peterson-inspired-coach.git
+cd jordan-peterson-inspired-coach
+export KEEL_API_KEY=your_key                      # or OPENAI_API_KEY
+export KEEL_BASE_URL=https://api.openai.com/v1    # optional: any OpenAI-compatible endpoint
+export KEEL_MODEL=gpt-4o-mini                     # optional: any chat model the endpoint serves
+python3 -m keel                 # English
+python3 -m keel --lang he       # Hebrew
+python3 -m keel --tts           # also print SSML (pauses/prosody) for a TTS engine
+python3 -m keel --offline       # try it without any API key
 ```
 In-chat commands: `/plan`, `/commit <step>`, `/checkin`, `/profile`, `/export`, `/quit`.
 
