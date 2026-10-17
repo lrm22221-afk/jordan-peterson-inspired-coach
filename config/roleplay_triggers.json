@@ -1,0 +1,13 @@
+{
+ "_doc": "Auto role-play triggers. A scenario fires when any regex in 'patterns' matches the user message (case-insensitive). Highest priority wins. Role-play is offered automatically; it is suppressed when a safety (crisis) signal is present.",
+ "scenarios": [
+  {"id":"salary_negotiation","priority":90,"other_role":"your manager / HR","patterns":["\\b(raise|salary|pay rise|promotion|compensation|counter ?offer)\\b","(העלאה|העלאת שכר|משכורת|קידום|לבקש שכר)"]},
+  {"id":"price_negotiation","priority":85,"other_role":"the client / seller","patterns":["\\b(negotiat\\w*|haggl\\w*|my (rate|price|fee)s?|discount|quote (for|to) (a|the) client)\\b","(משא ומתן|להתמקח|(להוריד|להעלות|לקבוע|לבקש) (את ה)?מחיר|הנחה|תעריף)"]},
+  {"id":"set_boundary","priority":80,"other_role":"the person crossing your boundary","patterns":["\\b(say no|saying no|set (a )?boundar\\w*|can'?t say no|keep(s)? asking me)\\b","(להגיד לא|לסרב|גבול|גבולות)"]},
+  {"id":"taken_advantage","priority":78,"other_role":"the person taking advantage","patterns":["\\b(taking advantage|takes advantage|walk(s|ing)? all over me|use(s|d)? me|doormat|pushover)\\b","(מנצל|מנצלים|ניצלו|סמרטוט|דורכים עליי)"]},
+  {"id":"ask_reciprocity","priority":70,"other_role":"the person you are giving to","patterns":["\\b(in return|quid pro quo|never returns? the favou?r|one[- ]sided|ask for something back)\\b","(בתמורה|בחזרה|חד צדדי|טובה תחת טובה)"]},
+  {"id":"conflict_partner","priority":75,"other_role":"your partner","patterns":["\\b(fight|argu\\w+|conflict) with my (wife|husband|partner|girlfriend|boyfriend)\\b","\\bmy (wife|husband|partner|girlfriend|boyfriend) (is|keeps|always|never)\\b","(רבתי|ריב|ויכוח).{0,20}(אשתי|בעלי|בת הזוג|בן הזוג|החברה שלי|החבר שלי)"]},
+  {"id":"conflict_work","priority":72,"other_role":"your boss / colleague","patterns":["\\b(boss|manager|colleague|coworker|co-worker)\\b.{0,40}\\b(conflict|argu\\w+|unfair|yell\\w*|disrespect\\w*|problem)\\b","(הבוס|המנהל|עמית|קולגה).{0,30}(ריב|לא הוגן|צעק|בעיה|זלזל)"]},
+  {"id":"hard_conversation","priority":60,"other_role":"the other person","patterns":["\\b(difficult|hard|tough|awkward) (conversation|talk)\\b","\\bi (need|have) to (tell|confront|talk to)\\b","(שיחה קשה|לדבר איתו|לדבר איתה|לעמת)"]}
+ ]
+}

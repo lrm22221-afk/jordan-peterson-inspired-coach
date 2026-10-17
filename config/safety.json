@@ -1,0 +1,10 @@
+{
+ "_doc": "Crisis signals. Any match switches the bot into SAFETY mode: no firmness, no role-play, warm and brief, encourage immediate professional/emergency help. Regex, case-insensitive.",
+ "crisis_patterns": ["\\b(kill myself|suicid\\w*|end (it all|my life)|don'?t want to (live|be alive)|self[- ]harm|hurt myself|cut myself|no reason to live|better off dead)\\b",
+  "(להתאבד|אובדני|לשים קץ|לא רוצה לחיות|לפגוע בעצמי|אין טעם לחיות|עדיף שאמות)"],
+ "abuse_patterns": ["\\b(hits me|beats me|abus\\w+|threaten\\w* to (hurt|kill)|afraid for my (life|safety))\\b","(מכה אותי|מרביץ לי|מתעלל|מאיים לפגוע)"],
+ "resources": {
+  "en": "If you might act on these thoughts, contact emergency services now (911 US / 112 EU) or a crisis line: US 988 Suicide & Crisis Lifeline (call/text 988). Outside the US: findahelpline.com.",
+  "he": "אם יש סכנה מיידית, פנה עכשיו למד\"א 101 או למשטרה 100. ער\"ן – עזרה ראשונה נפשית: 1201 (24/7), סה\"ר: sahar.org.il. לאלימות במשפחה: 118."
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "_note": "Paraphrased distillations of ideas from sources in research/REPORT.md (ids B*, L*, S*). Not quotations.",
+ "principles": [
+  {
+   "id": "responsibility_meaning",
+   "title": "Meaning is found in adopting responsibility",
+   "summary": "Meaning scales with responsibility voluntarily taken on; people without a 'load' tend to drift, get anxious and depressed.",
+   "sources": [
+    "L1",
+    "B1",
+    "L16"
+   ]
+  },
+  {
+   "id": "aim",
+   "title": "Aim structures perception",
+   "summary": "Without a hierarchy of values you cannot decide what to look at or do; if everything is equally important you are paralysed.",
+   "sources": [
+    "L1",
+    "B2",
+    "L15"
+   ]
+  },
+  {
+   "id": "order_chaos",
+   "title": "Order and chaos",
+   "summary": "Order: actions produce expected results. Chaos: the map stops matching the world. Grow by confronting the unknown in manageable doses.",
+   "sources": [
+    "L1",
+    "B1",
+    "L11"
+   ]
+  },
+  {
+   "id": "compare_yesterday",
+   "title": "Compare yourself to who you were yesterday, not to who someone else is today",
+   "summary": "Measure progress against your past self; set small incremental goals that are slightly better than yesterday and let them compound. Verified against B1 Rule 4 summaries and L13.",
+   "sources": [
+    "B1",
+    "L13"
+   ]
+  },
+  {
+   "id": "incremental",
+   "title": "Small, slightly-better steps compound",
+   "summary": "Aim high but make the goal difficult but proximal; ask what small thing you could do, that you would actually do, to make things an increment better, reward yourself for incremental movement, and raise the baseline over time - incremental improvement repeated is virtually unstoppable. Verified: B1 Rule 4 passage and JBP's own words (L13, L15).",
+   "sources": [
+    "B1",
+    "S1",
+    "L13",
+    "L14",
+    "L15"
+   ]
+  },
+  {
+   "id": "self_care_as_duty",
+   "title": "Treat yourself like someone you are responsible for helping",
+   "summary": "Care for your own well-being as you would for someone in your charge.",
+   "sources": [
+    "B1"
+   ]
+  },
+  {
+   "id": "meaning_vs_expedience",
+   "title": "Pursue what is meaningful, not what is expedient",
+   "summary": "Expedience trades the future for the present.",
+   "sources": [
+    "B1",
+    "L12"
+   ]
+  },
+  {
+   "id": "house_in_order",
+   "title": "Set your house in perfect order before you criticize the world",
+   "summary": "Fix what is within reach before blaming the world.",
+   "sources": [
+    "B1",
+    "L3"
+   ]
+  },
+  {
+   "id": "truth",
+   "title": "Tell the truth, or at least don't lie",
+   "summary": "Truthful speech keeps your map accurate and relationships trustworthy; self-deception corrupts both.",
+   "sources": [
+    "B1",
+    "L3",
+    "L9",
+    "L14"
+   ]
+  },
+  {
+   "id": "listen",
+   "title": "Assume the person you are listening to might know something you don't",
+   "summary": "Summarize the other person's view to their satisfaction before replying.",
+   "sources": [
+    "B1",
+    "L6",
+    "L17"
+   ]
+  },
+  {
+   "id": "precision",
+   "title": "Be precise in your speech",
+   "summary": "Naming a problem precisely makes it smaller and solvable.",
+   "sources": [
+    "B1",
+    "B2"
+   ]
+  },
+  {
+   "id": "fog",
+   "title": "Do not hide unwanted things in the fog",
+   "summary": "Avoided problems compound into larger ones.",
+   "sources": [
+    "B2",
+    "L10"
+   ]
+  },
+  {
+   "id": "imagine_aim",
+   "title": "Imagine who you could be and then aim single-mindedly at that",
+   "summary": "A vivid desirable future and a feared one give direction.",
+   "sources": [
+    "B2",
+    "S1",
+    "L15"
+   ]
+  },
+  {
+   "id": "opportunity_responsibility",
+   "title": "Notice that opportunity lurks where responsibility has been abdicated",
+   "summary": "Problems nobody handles are openings.",
+   "sources": [
+    "B2"
+   ]
+  },
+  {
+   "id": "dont_do_what_you_hate",
+   "title": "Do not do what you hate",
+   "summary": "Repeatedly acting against conscience erodes you.",
+   "sources": [
+    "B2"
+   ]
+  },
+  {
+   "id": "one_thing",
+   "title": "Work as hard as you possibly can on at least one thing and see what happens",
+   "summary": "Concentrated effort reveals capability.",
+   "sources": [
+    "B2"
+   ]
+  },
+  {
+   "id": "memory",
+   "title": "If old memories still upset you, write them down carefully and completely",
+   "summary": "Memories still emotionally hot after ~18 months signal an unextracted lesson.",
+   "sources": [
+    "B2",
+    "L6",
+    "S1"
+   ]
+  },
+  {
+   "id": "romance",
+   "title": "Plan and work diligently to maintain the romance in your relationship",
+   "summary": "Romance is a practiced skill; partners must say clearly what they want and negotiate.",
+   "sources": [
+    "B2",
+    "L6"
+   ]
+  },
+  {
+   "id": "no_resentment",
+   "title": "Do not allow yourself to become resentful, deceitful, or arrogant",
+   "summary": "Resentment signals either immaturity or a need to speak up.",
+   "sources": [
+    "B2",
+    "L6",
+    "L8",
+    "L13",
+    "L19"
+   ]
+  },
+  {
+   "id": "gratitude",
+   "title": "Be grateful in spite of your suffering",
+   "summary": "Gratitude and love are deliberate practices.",
+   "sources": [
+    "B2",
+    "L6"
+   ]
+  },
+  {
+   "id": "shadow",
+   "title": "Harmless is not virtuous",
+   "summary": "Someone capable of standing up for themselves who chooses restraint is virtuous; over-agreeable people get exploited and resentful.",
+   "sources": [
+    "L4",
+    "L9",
+    "L18"
+   ]
+  },
+  {
+   "id": "humility_5pct",
+   "title": "Even if it's only 5% me, fix it",
+   "summary": "In recurring conflict fix your share; aim to solve, not win.",
+   "sources": [
+    "L6"
+   ]
+  },
+  {
+   "id": "suffering_real",
+   "title": "Suffering is real; reducing it is meaningful",
+   "summary": "People act as if pain is real; reducing needless suffering gives meaning.",
+   "sources": [
+    "L1"
+   ]
+  },
+  {
+   "id": "abandon_ideology",
+   "title": "Abandon ideology",
+   "summary": "Totalizing one-cause explanations replace personal responsibility.",
+   "sources": [
+    "B2"
+   ]
+  },
+  {
+   "id": "agreeable_negotiation",
+   "title": "Learn to negotiate on your own behalf",
+   "summary": "Agreeable people bargain harder for others than for themselves and are prone to being exploited. The remedy is not hostility but saying what you think and negotiating for yourself, with a real alternative in hand, while keeping the balance (not too disagreeable).",
+   "sources": [
+    "L9",
+    "L18",
+    "L4"
+   ]
+  },
+  {
+   "id": "sacrifice",
+   "title": "Sacrifice the present for a better future",
+   "summary": "Making today a little less impulsively pleasurable to make tomorrow more secure is the core of maturity and the archaic meaning of sacrifice.",
+   "sources": [
+    "L12",
+    "L8"
+   ]
+  },
+  {
+   "id": "confront_voluntarily",
+   "title": "Confront what threatens you, voluntarily",
+   "summary": "When chaotic, threatening things upset you, open your eyes and face them; avoided chaos grows.",
+   "sources": [
+    "L10",
+    "B2"
+   ]
+  }
+ ]
+}
