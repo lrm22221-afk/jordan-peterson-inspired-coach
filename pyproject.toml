@@ -1,0 +1,16 @@
+[project]
+name = "jordan-peterson-inspired-coach"
+version = "0.1.0"
+description = "Keel: unofficial CLI life coach inspired by Jordan B. Peterson's ideas (not affiliated)"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+keel = "keel.cli:main"
+
+[tool.setuptools]
+packages = ["keel"]
